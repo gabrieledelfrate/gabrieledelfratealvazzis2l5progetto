@@ -1,0 +1,158 @@
+html{font-size: 100%;}
+/*BODY*/
+body{
+    background-color: #F0F0F0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    width: 100%;
+}
+
+/*HEADER*/
+
+header{
+    background-color: #222F3F;
+    text-align: left;
+    width: auto;
+    padding-top: 1.8rem;
+    
+}
+header img{
+    width: 9rem;
+    height: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 0rem;
+}
+
+header ul{
+    background-color: #364757;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    word-spacing: 1.5rem;
+}
+
+header ul button {
+    background-color: #364757;
+    border-style: hidden;
+    font-size: large;
+}
+
+header ul button:hover{
+    border-style: solid;
+    border-color: white;
+}
+
+header ul li{
+    display: inline;
+    
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    word-spacing: 0rem;    
+}
+
+/*MAIN*/
+
+main section#holidaygift{
+    background-color: #F56502;
+    text-align: center;
+    margin: 2rem;
+    color: white;
+}
+
+main div#intro {
+    position: relative;
+    margin: 2rem;
+    width: auto;
+    text-align: center;
+}
+
+main div#intro section img{
+    width: 100%;
+}
+
+main div#introtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white
+}
+
+main div#introtext h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+main div#introtext h2{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+
+main section.tempt1{
+    margin: 2rem;
+    background-color: #FFFFFF;
+    width: auto;
+}
+
+main section.tempt1 div img{
+    width: 16rem;
+    height: 18rem;
+    border-radius: 7%;
+    margin: 1.5rem;
+}
+
+main div.caption {
+    font-size: x-large;
+    margin: 1.5rem;
+    padding-top: 1rem;
+}
+
+main div.caption a{
+    color: #196496;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
+main section.tempt{
+    margin: 2rem;
+    background-color: #FFFFFF;
+    width: auto;
+    text-align: center;
+}
+
+main section.tempt img{
+    width: 100%;
+}
+
+
+/*FOOTER*/
+
+footer{
+    background-color: #222F3F;
+    text-align: center;
+    width: auto;
+    height: 20rem;
+}
+
+footer div{
+    background-color: #364757;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer div a{
+    color: white;
+    font-size: larger;
+}
+footer img{
+    width: 15rem;
+    height: 5rem;
+    padding-top: 4rem;
+}
