@@ -33,17 +33,6 @@ header ul{
     word-spacing: 1.5rem;
 }
 
-header ul button {
-    background-color: #364757;
-    border-style: hidden;
-    font-size: large;
-}
-
-header ul button:hover{
-    border-style: solid;
-    border-color: white;
-}
-
 header ul li{
     display: inline;
     
